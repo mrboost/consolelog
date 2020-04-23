@@ -1,0 +1,245 @@
+{
+    "backgroundVideo": {
+        "label": "Media File",
+        "type": "video-input",
+        "value": "",
+        "group": "Background Video"
+    },
+    "playBg": {
+        "label": "Show or hide the background video",
+        "type": "dropdown",
+        "options": {
+            "true": "Show",
+            "false": "Hide"
+        },
+        "value": "true",
+        "group": "Background Video"
+    },
+    "bgVolume": {
+        "label": "Volume of the background video element",
+        "type": "slider",
+        "name": "",
+        "value": 60,
+        "max": 100,
+        "min": 0,
+        "steps": 2,
+        "group": "Background Video"
+    },
+    "backgroundY": {
+        "label": "Vertical Offset",
+        "type": "slider",
+        "name": "",
+        "value": 0,
+        "max": 200,
+        "min": -200,
+        "steps": 5,
+        "group": "Background Video"
+    },
+    "iconVideo": {
+        "label": "Media File",
+        "type": "video-input",
+        "value": "",
+        "group": "Icon Video"
+    },
+    "playIcon": {
+        "label": "Show or hide the icon video",
+        "type": "dropdown",
+        "options": {
+            "true": "Show",
+            "false": "Hide"
+        },
+        "value": "true",
+        "group": "Icon Video"
+    },
+    "iconVolume": {
+        "label": "Volume of the icon video element",
+        "type": "slider",
+        "name": "",
+        "value": 20,
+        "max": 100,
+        "min": 0,
+        "steps": 2,
+        "group": "Icon Video"
+    },
+    "iconY": {
+        "label": "Vertical Offset",
+        "type": "slider",
+        "name": "",
+        "value": 0,
+        "max": 200,
+        "min": -200,
+        "steps": 5,
+        "group": "Icon Video"
+    },
+    "subText": {
+        "label": "Secondary Text Template",
+        "type": "textfield",
+        "value": "New Follower",
+        "group": "Secondary Text"
+    },
+    "subFontstyle": {
+        "label": "Font Style",
+        "type": "dropdown",
+        "options": {
+            "Rage": "Aggressive",
+            "Yellowtail": "Cursive"
+        },
+        "value": "Yellowtail",
+        "group": "Secondary Text"
+    },
+    "subVerticalOffset": {
+        "label": "Vertical Offset",
+        "type": "slider",
+        "name": "",
+        "value": 0,
+        "max": 200,
+        "min": -200,
+        "steps": 5,
+        "group": "Secondary Text"
+    },
+    "textRotation": {
+        "label": "Text Tilt",
+        "type": "slider",
+        "name": "",
+        "value": -2,
+        "max": 10,
+        "min": -10,
+        "steps": 1,
+        "group": "Secondary Text"
+    },
+    "topGradient": {
+        "label": "Top Gradient Color",
+        "type": "colorpicker",
+        "value": "#FF2773",
+        "group": "Secondary Text"
+    },
+    "botGradient": {
+        "label": "Bottom Gradient Color",
+        "type": "colorpicker",
+        "value": "#FF2773",
+        "group": "Secondary Text"
+    },
+    "dropShadowColor": {
+        "label": "Drop Shadow Color",
+        "type": "colorpicker",
+        "value": "#610726",
+        "group": "Secondary Text"
+    },
+    "subFontGlow": {
+        "label": "Do You Want to add glow?",
+        "type": "dropdown",
+        "options": {
+            "glow": "Yes",
+            "no-glow": "No"
+        },
+        "value": "glow",
+        "group": "Secondary Text"
+    },
+    "glowColor": {
+        "label": "Glow Color (if enabled)",
+        "type": "colorpicker",
+        "value": "#FF2773",
+        "group": "Secondary Text"
+    },
+    "mainText": {
+        "label": "Main Text Template",
+        "type": "textfield",
+        "value": "{name}",
+        "group": "Main Text"
+    },
+    "mainFontStyle": {
+        "label": "Font Style",
+        "type": "dropdown",
+        "options": {
+            "Commando": "Commando",
+            "Orbitron": "Orbitron",
+            "Teko": "Teko"
+        },
+        "value": "Teko",
+        "group": "Main Text"
+    },
+    "mainFontColor": {
+        "label": "Choose the color theme of your main text",
+        "type": "dropdown",
+        "options": {
+            "purple": "Purple",
+            "sunset": "Sunset",
+            "teal": "Teal",
+            "gold": "Gold",
+            "cool": "Cool",
+            "deep": "Deep Purple"
+        },
+        "value": "teal",
+        "group": "Main Text"
+    },
+    "addClip": {
+        "label": "Do you want to add clipping lines to the main text?",
+        "type": "dropdown",
+        "options": {
+            "add-clip": "Yes",
+            "no-clip": "No"
+        },
+        "value": "no-clip",
+        "group": "Main Text"
+    },
+    "mainVerticalOffset": {
+        "label": "Vertical Offset",
+        "type": "slider",
+        "name": "",
+        "value": "0",
+        "max": 200,
+        "min": -200,
+        "steps": 5,
+        "group": "Main Text"
+    },
+    "messageY": {
+        "label": "Vertical Offset",
+        "type": "slider",
+        "name": "",
+        "value": "0",
+        "max": 200,
+        "min": -200,
+        "steps": 5,
+        "group": "User Message"
+    },
+    "iconSize": {
+        "label": "Scale",
+        "type": "slider",
+        "name": "",
+        "value": 100,
+        "max": 100,
+        "min": 20,
+        "steps": 2,
+        "group": "Icon Video"
+    },
+    "backgroundVidSize": {
+        "label": "Scale",
+        "type": "slider",
+        "name": "",
+        "value": 100,
+        "max": 100,
+        "min": 20,
+        "steps": 2,
+        "group": "Background Video"
+    },
+    "topTextSize": {
+        "label": "Scale",
+        "type": "slider",
+        "name": "",
+        "value": 100,
+        "max": 100,
+        "min": 20,
+        "steps": 2,
+        "group": "Secondary Text"
+    },
+    "botTextSize": {
+        "label": "Scale",
+        "type": "slider",
+        "name": "",
+        "value": 96,
+        "max": 100,
+        "min": 20,
+        "steps": 2,
+        "group": "Main Text"
+    }
+}
